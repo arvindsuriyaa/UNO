@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNO</title>
+    <link rel="stylesheet" href="uno.css">
+</head>
+
+<body>
+    <div id="cardContainer">
+        <div id="computerContainer"></div>
+        <div id="cardDeck">
+            <div>
+                <button id="reset"onclick="reset()"><b>reset</b></button>
+                <button id="uno" onclick="uno()"><b>UNO!</b></button>
+            </div>
+            <div id="discardPile">
+                <div id="retrieveCard" onclick="drawCard()"></div>
+                <div id="cardPile"></div>
+            </div>
+            <button id="startGame"onclick="startGame()"><b>startGame</b></button>
+        </div>
+        <div id="playerContainer"></div>
+    </div>
+    <script src="uno.js"></script>
+</body>
+
+</html>

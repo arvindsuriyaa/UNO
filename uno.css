@@ -1,0 +1,260 @@
+body{background:url('background.jpg');}
+#computerContainer{
+    height:223px;
+}
+#cardContainer{
+    margin: auto;
+}
+#uno{
+    height: 34px;
+    margin-left: 302px;
+    background-color: white;
+    margin-right: -300px;
+    color: black;
+    cursor: pointer;
+}
+#computerCards{
+    display:flex;
+    justify-content:center;
+    /* position: relative; */
+}
+
+#computerTitle {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 7px;
+    background-color: white;
+}
+#playerTitle{
+
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+    color:white;
+    background-color: black;
+}
+#cardDeck{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;                        
+}
+#reset{
+    height: 35px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#discardPile{
+    display:flex;
+    position: relative;
+}
+#retrieveCard{
+    height: 150px;
+    width: 95px;
+    background: url(uno.png);
+    background-size: contain;
+    border-style: solid;
+    border-color: black;
+    background-position: center;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#cardPile{
+    display:flex;
+}
+#cardPile .card{
+    pointer-events: none;
+}
+#startGame{
+    height: 35px;
+    background: green;
+    cursor: pointer;
+}
+#playerContainer{
+    height:215px;
+}
+#playerCards{
+    display:flex;
+    justify-content:center;
+}
+#actionButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+#draw,#pass{
+    height: 35px;
+    margin: 15px;
+    color:black;
+    background-color: yellow;
+}
+#pass{
+    color:white;
+    background-color: blue;
+    position: relative;
+    top:42px;
+    margin-right: -90px;
+    cursor: pointer;
+}
+button{
+    width: 75px;
+    border: none;
+}
+#card{
+    height: 150px;
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    border-style: solid;
+    border-color: black;
+    cursor:pointer;
+    position: relative;
+    bottom: 0px;
+    transition: bottom 0.2s;
+}
+#card:hover{
+    z-index: 2;
+    bottom:20px;
+    transition: bottom 0.2s;
+}
+.cards{
+    height: 150px;
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-flow: column;
+    border-style: solid;
+    border-color: black;
+    cursor:pointer;
+    position: relative;
+    bottom: 0px;
+    transition: bottom 0.2s;
+}
+.cards:hover{
+    z-index: 2;
+    bottom:20px;
+    transition: bottom 0.2s;
+}
+.bonusCard{
+    height: 150px;
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-flow: column;
+    border-style: solid;
+    border-color: black;
+    cursor:pointer;
+    position: relative;
+    bottom: 0px;
+    transition: bottom 0.2s;
+}
+.bonusCard:hover{
+
+    bottom:20px;
+    transition: bottom 0.2s;   
+}
+.upperLeft{
+    height: 25px;
+    width: 25px;
+    background-color: #c4c4c4;
+    border-radius: 0 0 50px 0;
+}
+.center{
+    display: flex;
+    align-self: center;
+    height: 90px;
+    width: 40px;                        
+    background-color: #c4c4c4;
+    border-radius: 60px 0 60px 0px;
+}
+.bottomRight{
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    height: 25px;
+    width: 25px;
+    background-color: #c4c4c4;
+    border-radius: 50px 0px 0 0px;
+}
+.upperSection{
+    margin-left: -6px;
+    margin-top: 2px;
+    font-size: 18px;
+    display: block;
+}
+.centerSection{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    display: block;
+    height: 100%;
+    margin-top: 30px;
+    width: 100%;
+}
+.bottomSection{
+    margin-right: 6px;
+    margin-top: 4px;
+    font-size: 20px;
+    display: block;
+}
+#computerCards .card{
+    height: 150px;
+    width: 95px;
+    background: url(uno.png);
+    background-size: contain;
+    border-style: solid;
+    border-color: black;
+    background-position: center;
+    margin-right: 0.74%;
+    margin-left: 0.74%;
+    position: relative;
+}
+.wildCard{
+    margin: 0px 10px;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#colorBox{
+    display: flex;
+    height: 30px;
+    position: relative;
+    width: 150px;
+    top: 60px;
+    margin-right: -150px;
+}
+#red{
+    background-color:red;
+    height: 30px;
+    width: 30px;
+}
+#blue{
+    background-color:blue;
+    height: 30px;
+    width: 30px;
+}
+
+#yellow{
+    background-color:yellow;
+    height: 30px;
+    width: 30px;
+}
+
+#green{
+    background-color:green;
+    height: 30px;
+    width: 30px;
+}
